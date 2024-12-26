@@ -1,0 +1,34 @@
+.gallery {
+    padding: 100px 0;
+}
+
+.gallery-grid {
+    margin-top: 20px;
+}
+
+.gallery-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    background: #f9f9f9;
+    gap: 20px;
+    background: none;
+    border-radius: 8px;
+}
+
+/*.gallery-item:hover {*/
+/*    transform: scale(1.05);*/
+/*    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
+    border-radius: 8px;
+    transition: all 500ms;
+}
+
+.gallery-item img:hover{
+    transform: scale(1.05);
+}

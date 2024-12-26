@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Club</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/sections/courses.css">
+    <link rel="stylesheet" href="styles/sections/contact.css">
+    <link rel="stylesheet" href="styles/sections/gallery.css">
+
+
+</head>
+<body>
+
+<button onclick="topFunction()" id="scrollBtn" title="Наверх">На верх</button>
+
+<header class="header container">
+    <nav class="header-nav ">
+        <div class="logo">
+            <img src="./images/logo.png" alt="">
+        </div>
+
+        <ul class="nav-list">
+            <li><a href="#courses" class="nav-link">Курсы</a></li>
+            <li><a href="#contacts" class="nav-link">Контакты</a></li>
+            <li><a href="#gallery" class="nav-link">Галерея</a></li>
+        </ul>
+    </nav>
+
+    <div class="header-content">
+        <h1 class="header-title">
+            Dino Club – Где детство встречается с развитием!
+        </h1>
+
+        <img src="./images/headerFoto.jpg" alt="" class="header-img">
+
+    </div>
+</header>
+
+<main class="main container">
+    <section id="courses" class="courses">
+        <div class="courses-content">
+            <h2>Наши курсы:</h2>
+            <div class="courses-grid">
+
+                <div class="course-card">
+                    <div class="course-icon">🔢</div>
+                    <h3>Математика</h3>
+                    <p>Развитие логического мышления и математических навыков</p>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">🌍</div>
+                    <h3>Английский</h3>
+                    <p>Изучение английского языка через игры и общение</p>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">💃</div>
+                    <h3>Хореография и Ритмика</h3>
+                    <p>Развитие пластики, координации и чувства ритма</p>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">🔍</div>
+                    <h3>Почемучка</h3>
+                    <p>Познавательные занятия об окружающем мире</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div>
+            <h2>Как нас найти?</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Контакты</h2>
+                    <p>Address: Ул Мустакилик 66 </p>
+                    <a href="tel:+998975690286">Телифон: +998 97 569 02 86</a>
+                    <!--          <p>✉️ Email: info@dinoclub.ru</p>-->
+
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.1690361976143!2d68.77540489503824!3d40.50029371146106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b207911058788d%3A0xda34290c7c538279!2sDinoClub%2B!5e0!3m2!1sru!2s!4v1735218867760!5m2!1sru!2s"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery/1.jpg" alt="jpg">
+                    <img src="images/gallery/2.jpg" alt="jpg">
+                    <img src="images/gallery/3.jpg" alt="jpg">
+                    <img src="images/gallery/4.jpg" alt="jpg">
+                    <img src="images/gallery/5.jpg" alt="jpg">
+                    <img src="images/gallery/6.jpg" alt="jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer class="footer">
+    <a href="https://t.me/Dino_English"><i class="fa-brands fa-telegram"></i></a>
+    <a href="https://www.instagram.com/dino.club_/"><i class="fa-brands fa-instagram"></i></a>
+</footer>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
